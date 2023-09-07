@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sat Feb 25 16:06:35 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Multiplier
+Top-level Entity Name : Multiplier
+Family : MAX 10
+Total logic elements : 972
+    Total combinational functions : 596
+    Dedicated logic registers : 714
+Total registers : 714
+Total pins : 39
+Total virtual pins : 0
+Total memory bits : 3,328
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

@@ -1,0 +1,13 @@
+module register_file(logic input [15:0] D,
+							logic input [2:0] DR, SR1, SR2,
+							logic input LD_REG, 
+							logic output [15:0] SR1_out, SR2_out)
+							
+	logic [15:0] registers [8];
+	always_comb begin
+		if(LD_REG)
+			registers[DR] = D;
+		SR1_out = registers[SR1];
+		SR2_out = registers[SR2];
+	end
+endmodule

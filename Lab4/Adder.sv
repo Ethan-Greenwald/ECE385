@@ -1,0 +1,33 @@
+module Adder(  input logic [8:0] A, B,
+					input logic Cin,
+					output logic [8:0] S,
+					output logic Cout);
+					
+		logic [8:0] B0;
+		always_comb begin	//if we are subtracting, Cin represents adding 1 and here we invert B
+			if(Cin)
+				B0 = ~B;
+			else
+				B0 = B;
+		end
+		
+		wire w0, w1, w2, w3, w4, w5, w6, w7;
+		full_adder add0( .A(A[0]), .B(B0[0]), .Cin(Cin), .S(S[0]),  .Cout(w0));
+		full_adder add1( .A(A[1]), .B(B0[1]), .Cin(w0), .S(S[1]), .Cout(w1));
+		full_adder add2( .A(A[2]), .B(B0[2]), .Cin(w1), .S(S[2]), .Cout(w2));
+		full_adder add3( .A(A[3]), .B(B0[3]), .Cin(w2), .S(S[3]), .Cout(w3));
+		full_adder add4( .A(A[4]), .B(B0[4]), .Cin(w3), .S(S[4]), .Cout(w4));
+		full_adder add5( .A(A[5]), .B(B0[5]), .Cin(w4), .S(S[5]), .Cout(w5));
+		full_adder add6( .A(A[6]), .B(B0[6]), .Cin(w5), .S(S[6]), .Cout(w6));
+		full_adder add7( .A(A[7]), .B(B0[7]), .Cin(w6), .S(S[7]), .Cout(w7));
+		full_adder add8( .A(A[8]), .B(B0[8]), .Cin(w7), .S(S[8]), .Cout);
+endmodule
+
+module full_adder(input logic A, B, Cin, output logic S, Cout);
+
+	always_comb begin
+		S = A ^ B ^ Cin;
+		Cout = (A & B) | (B & Cin) | (A & Cin);
+	end
+	
+endmodule

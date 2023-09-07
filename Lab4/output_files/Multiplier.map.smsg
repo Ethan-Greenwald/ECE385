@@ -1,0 +1,5 @@
+Info (10281): Verilog HDL Declaration information at testbench_8.sv(9): object "Reset" differs only in case from object "RESET" in the same scope File: D:/ECE 385/Lab4/testbench_8.sv Line: 9
+Warning (10273): Verilog HDL warning at HexDriver.sv(23): extended using "x" or "z" File: D:/ECE 385/Lab4/HexDriver.sv Line: 23
+Info (10281): Verilog HDL Declaration information at Control.sv(2): object "Sub" differs only in case from object "SUB" in the same scope File: D:/ECE 385/Lab4/Control.sv Line: 2
+Info (10281): Verilog HDL Declaration information at Control.sv(1): object "Reset" differs only in case from object "RESET" in the same scope File: D:/ECE 385/Lab4/Control.sv Line: 1
+Info (10281): Verilog HDL Declaration information at testbench_simple.sv(9): object "Reset" differs only in case from object "RESET" in the same scope File: D:/ECE 385/Lab4/testbench_simple.sv Line: 9

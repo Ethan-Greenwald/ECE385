@@ -1,0 +1,215 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ECE 385/Lab4/simulation/modelsim
+vAdder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1677364550
+!i10b 1
+!s100 RXb]=beC:P;jPGkJY>`mg1
+IliMh`gz267TPinSOnY4W<3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 Adder_sv_unit
+S1
+R0
+Z5 w1676602835
+Z6 8D:/ECE 385/Lab4/Adder.sv
+Z7 FD:/ECE 385/Lab4/Adder.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1677364550.000000
+Z10 !s107 D:/ECE 385/Lab4/Adder.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab4|D:/ECE 385/Lab4/Adder.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+D:/ECE 385/Lab4}
+Z14 tCvgOpt 0
+n@adder
+vControl
+R1
+R2
+!i10b 1
+!s100 2;DXSBlBOYV9VFmmUenNT0
+IFTY3]][<GKfYHlMROCXoS0
+R3
+!s105 Control_sv_unit
+S1
+R0
+R5
+8D:/ECE 385/Lab4/Control.sv
+FD:/ECE 385/Lab4/Control.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE 385/Lab4/Control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab4|D:/ECE 385/Lab4/Control.sv|
+!i113 1
+R12
+R13
+R14
+n@control
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 fQQQ1ZQSL?BU[oLfY0WAe2
+I7d`4`dUa8gO85X5e;_5lk1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 26
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 ^DddjRd7Wla]U<SlP;mT@0
+IMkdn;K6KC@Y>Z5I_L^P[f0
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+R5
+8D:/ECE 385/Lab4/HexDriver.sv
+FD:/ECE 385/Lab4/HexDriver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE 385/Lab4/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab4|D:/ECE 385/Lab4/HexDriver.sv|
+!i113 1
+R12
+R13
+R14
+n@hex@driver
+vMultiplier
+R1
+R2
+!i10b 1
+!s100 G0JcWT>WGHH5Fn2kHYc=h1
+I4<zESIigafE;3K?La7lEZ0
+R3
+!s105 Multiplier_sv_unit
+S1
+R0
+R5
+8D:/ECE 385/Lab4/Multiplier.sv
+FD:/ECE 385/Lab4/Multiplier.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE 385/Lab4/Multiplier.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab4|D:/ECE 385/Lab4/Multiplier.sv|
+!i113 1
+R12
+R13
+R14
+n@multiplier
+vRegister
+R1
+!s110 1677364549
+!i10b 1
+!s100 SHVUm;O[?mL4`i3cRM?gY1
+IaO=?L?CcL95Ya3:G`k2z23
+R3
+!s105 Register_sv_unit
+S1
+R0
+R5
+8D:/ECE 385/Lab4/Register.sv
+FD:/ECE 385/Lab4/Register.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1677364548.000000
+!s107 D:/ECE 385/Lab4/Register.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab4|D:/ECE 385/Lab4/Register.sv|
+!i113 1
+R12
+R13
+R14
+n@register
+vsync
+R1
+R2
+!i10b 1
+!s100 2W5Vz0:F6ckE2`eJOTK5l1
+IWdIe6de@IFG=<zO[L1h1@2
+R3
+!s105 Synchronizers_sv_unit
+S1
+R0
+R5
+8D:/ECE 385/Lab4/Synchronizers.sv
+FD:/ECE 385/Lab4/Synchronizers.sv
+L0 4
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE 385/Lab4/Synchronizers.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab4|D:/ECE 385/Lab4/Synchronizers.sv|
+!i113 1
+R12
+R13
+R14
+vtestbench
+R1
+R2
+!i10b 1
+!s100 oK2:MHDY3gMSXaZFPUJ[22
+Ial0fHVP_?inZk=6kF3X1F2
+R3
+!s105 testbench_8_sv_unit
+S1
+R0
+R5
+8D:/ECE 385/Lab4/testbench_8.sv
+FD:/ECE 385/Lab4/testbench_8.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE 385/Lab4/testbench_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab4|D:/ECE 385/Lab4/testbench_8.sv|
+!i113 1
+R12
+R13
+R14

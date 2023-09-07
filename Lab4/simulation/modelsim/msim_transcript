@@ -1,0 +1,120 @@
+# Reading D:/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do Multiplier_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/ECE\ 385/Lab4 {D:/ECE 385/Lab4/Register.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:35:48 on Feb 25,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE 385/Lab4" D:/ECE 385/Lab4/Register.sv 
+# -- Compiling module Register
+# 
+# Top level modules:
+# 	Register
+# End time: 16:35:49 on Feb 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ECE\ 385/Lab4 {D:/ECE 385/Lab4/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:35:50 on Feb 25,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE 385/Lab4" D:/ECE 385/Lab4/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 16:35:50 on Feb 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ECE\ 385/Lab4 {D:/ECE 385/Lab4/Control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:35:50 on Feb 25,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE 385/Lab4" D:/ECE 385/Lab4/Control.sv 
+# -- Compiling module Control
+# 
+# Top level modules:
+# 	Control
+# End time: 16:35:50 on Feb 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ECE\ 385/Lab4 {D:/ECE 385/Lab4/Adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:35:50 on Feb 25,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE 385/Lab4" D:/ECE 385/Lab4/Adder.sv 
+# -- Compiling module Adder
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	Adder
+# End time: 16:35:50 on Feb 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ECE\ 385/Lab4 {D:/ECE 385/Lab4/Synchronizers.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:35:50 on Feb 25,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE 385/Lab4" D:/ECE 385/Lab4/Synchronizers.sv 
+# -- Compiling module sync
+# 
+# Top level modules:
+# 	sync
+# End time: 16:35:50 on Feb 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ECE\ 385/Lab4 {D:/ECE 385/Lab4/Multiplier.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:35:50 on Feb 25,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE 385/Lab4" D:/ECE 385/Lab4/Multiplier.sv 
+# -- Compiling module Multiplier
+# 
+# Top level modules:
+# 	Multiplier
+# End time: 16:35:50 on Feb 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/ECE\ 385/Lab4 {D:/ECE 385/Lab4/testbench_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:35:50 on Feb 25,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE 385/Lab4" D:/ECE 385/Lab4/testbench_8.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 16:35:50 on Feb 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 16:35:51 on Feb 25,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.Multiplier
+# Loading work.Register
+# Loading work.Adder
+# Loading work.full_adder
+# Loading work.Control
+# Loading work.HexDriver
+# Loading work.sync
+# ** Warning: (vsim-3017) D:/ECE 385/Lab4/Multiplier.sv(21): [TFMPC] - Too few port connections. Expected 8, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/processor0/regB File: D:/ECE 385/Lab4/Register.sv
+# ** Warning: (vsim-3722) D:/ECE 385/Lab4/Multiplier.sv(21): [TFMPC] - Missing connection for port 'Reset'.
+# ** Warning: (vsim-3722) D:/ECE 385/Lab4/Multiplier.sv(21): [TFMPC] - Missing connection for port 'Shift_Out'.
+# ** Warning: (vsim-3017) D:/ECE 385/Lab4/Multiplier.sv(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/processor0/adder File: D:/ECE 385/Lab4/Adder.sv
+# ** Warning: (vsim-3722) D:/ECE 385/Lab4/Multiplier.sv(24): [TFMPC] - Missing connection for port 'Cout'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-8315) D:/ECE 385/Lab4/Control.sv(21): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/processor0/control_unit
+# ** Warning: (vsim-8315) D:/ECE 385/Lab4/Control.sv(21): No condition is true in the unique/priority if/case statement.
+#    Time: 10 ns  Iteration: 2  Instance: /testbench/processor0/control_unit
+# ** Note: $stop    : D:/ECE 385/Lab4/testbench_8.sv(96)
+#    Time: 10830 ns  Iteration: 0  Instance: /testbench
+# Break in NamedBeginStat TEST_VECTORS at D:/ECE 385/Lab4/testbench_8.sv line 96
+# End time: 16:42:53 on Feb 25,2023, Elapsed time: 0:07:02
+# Errors: 0, Warnings: 7

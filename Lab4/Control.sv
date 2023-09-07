@@ -1,0 +1,175 @@
+module Control( input logic Clk, Run, Reset, M, M_next,
+					 output logic Clr_A, Shift, Add, Sub, Ld_B
+				   );
+					
+    enum logic [5:0] {HOLD, ADD0, ADD1, ADD2, ADD3, ADD4, ADD5, ADD6, SUB, SH0, SH1, SH2, SH3, SH4, SH5, SH6, SH7, RESET, BEGIN, WAIT}   curr_state, next_state; 
+
+	//updates flip flop, current state is the only one
+    always_ff @ (posedge Clk)  
+    begin
+			 if(Reset)
+				curr_state <= RESET;
+			 else
+				curr_state <= next_state;
+    end
+
+    // Assign outputs based on state
+	always_comb
+    begin
+        
+		  next_state  = curr_state;	//required because I haven't enumerated all possibilities below
+        unique case (curr_state) 
+
+				BEGIN:	begin
+								if(M)
+									next_state = ADD0;
+								else
+									next_state = SH0;
+							end
+							  
+            ADD0:   	next_state = SH0;
+				
+				SH0:	 	begin 
+								if(M_next)
+									next_state = ADD1;
+								else
+									next_state = SH1;
+							end
+							 
+				ADD1:	   next_state = SH1;
+				
+				SH1:		begin
+								if(M_next)
+									next_state = ADD2;
+								else
+									next_state = SH2;
+							end
+							 
+				ADD2:	   next_state = SH2;
+				
+				SH2:	 	begin
+								if(M_next)
+									next_state = ADD3;
+								else
+									next_state = SH3;
+							end
+							 
+				ADD3:   	next_state = SH3;
+				
+				SH3:	 	begin
+								if(M_next)
+									next_state = ADD4;
+								else
+									next_state = SH4;
+							end
+							 
+				ADD4:    next_state = SH4;
+				
+				SH4:	 	begin
+								if(M_next)
+									next_state = ADD5;
+								else
+									next_state = SH5;
+							end
+							 
+				ADD5:   	next_state = SH5;
+				
+				SH5:		begin
+								if(M_next)
+									next_state = ADD6;
+								else
+									next_state = SH6;
+							end
+							 
+				ADD6:    next_state = SH6;
+				
+				SH6:	 	begin 
+								if(M_next)
+									next_state = SUB;
+								else
+									next_state = SH7;
+							end
+							 
+				SUB:     next_state = SH7;
+				
+				SH7:	 	next_state = HOLD;
+							 
+				RESET: 	next_state = HOLD;
+				
+				HOLD:		begin
+								if(~Run)
+									next_state = WAIT;
+								else
+									next_state = HOLD;
+							end
+							
+				WAIT:		begin
+								if(Run)
+									next_state = BEGIN;
+								else
+									next_state = WAIT;
+							end
+							  
+        endcase
+   
+		  
+		  // Assign outputs based on ‘state’
+        case (curr_state) 
+	   	   BEGIN:
+				begin
+					Clr_A = 1'b1;
+					Ld_B = 1'b0;
+					Add = 1'b0;
+					Sub = 1'b0;
+					Shift = 1'b0;
+				end
+				
+				HOLD, WAIT:		//used for displaying the output and waiting
+				begin
+					Clr_A = 1'b0;
+					Ld_B = 1'b0;
+					Add = 1'b0;
+					Sub = 1'b0;
+					Shift = 1'b0;
+				end
+				
+				RESET:
+				begin
+					Clr_A = 1'b1;
+					Ld_B = 1'b1;
+					Add = 1'b0;
+					Sub = 1'b0;
+					Shift = 1'b0;
+				end
+				
+				
+				ADD0, ADD1, ADD2, ADD3, ADD4, ADD5, ADD6:
+				begin
+					Clr_A = 1'b0;
+					Ld_B = 1'b0;
+					Add = 1'b1;
+					Sub = 1'b0;
+					Shift = 1'b0;
+				end
+				
+				SUB:
+				begin
+					Clr_A = 1'b0;
+					Ld_B = 1'b0;
+					Add = 1'b0;
+					Sub = 1'b1;
+					Shift = 1'b0;
+				end
+				
+				SH0, SH1, SH2, SH3, SH4, SH5, SH6, SH7:
+				begin
+					Clr_A = 1'b0;
+					Ld_B = 1'b0;
+					Add = 1'b0;
+					Sub = 1'b0;
+					Shift = 1'b1;
+				end
+				
+        endcase
+    end
+endmodule

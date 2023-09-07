@@ -1,0 +1,181 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "AHexU[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AHexU[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AHexU[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AHexU[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AHexU[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AHexU[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AHexU[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AHexL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AHexL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AHexL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AHexL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AHexL[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AHexL[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AHexL[6]",
+					"strict" : false
+				},
+				{
+					"name" : "BHexU[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BHexU[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BHexU[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BHexU[3]",
+					"strict" : false
+				},
+				{
+					"name" : "BHexU[4]",
+					"strict" : false
+				},
+				{
+					"name" : "BHexU[5]",
+					"strict" : false
+				},
+				{
+					"name" : "BHexU[6]",
+					"strict" : false
+				},
+				{
+					"name" : "BHexL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BHexL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BHexL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BHexL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "BHexL[4]",
+					"strict" : false
+				},
+				{
+					"name" : "BHexL[5]",
+					"strict" : false
+				},
+				{
+					"name" : "BHexL[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Clk",
+					"strict" : false
+				},
+				{
+					"name" : "SW[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "Run",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

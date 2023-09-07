@@ -1,0 +1,414 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ECE 385/Lab5/simulation/modelsim
+vdatapath
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1678400286
+!i10b 1
+!s100 0HZ]2TGo`0dlJ7kjhkD>52
+I83Y5QQQMGjjQ?P8o?W;ZR1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 datapath_sv_unit
+S1
+R0
+Z5 w1678395059
+Z6 8D:/ECE 385/Lab5/datapath.sv
+Z7 FD:/ECE 385/Lab5/datapath.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1678400286.000000
+Z10 !s107 D:/ECE 385/Lab5/datapath.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab5|D:/ECE 385/Lab5/datapath.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+D:/ECE 385/Lab5}
+Z14 tCvgOpt 0
+vHexDriver
+R1
+Z15 !s110 1678400285
+!i10b 1
+!s100 ^DddjRd7Wla]U<SlP;mT@0
+IDQ?bI5`l8MRT401mQGd>83
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+R5
+8D:/ECE 385/Lab5/HexDriver.sv
+FD:/ECE 385/Lab5/HexDriver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z16 !s108 1678400285.000000
+!s107 D:/ECE 385/Lab5/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab5|D:/ECE 385/Lab5/HexDriver.sv|
+!i113 1
+R12
+R13
+R14
+n@hex@driver
+vISDU
+R1
+R15
+!i10b 1
+!s100 F:@g3:729UF:9_01Anb:=1
+IWMFz>W>@cOeFzEH]C`0fV0
+R3
+!s105 ISDU_sv_unit
+S1
+R0
+R5
+8D:/ECE 385/Lab5/ISDU.sv
+FD:/ECE 385/Lab5/ISDU.sv
+Z17 L0 19
+R8
+r1
+!s85 0
+31
+R16
+!s107 D:/ECE 385/Lab5/ISDU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab5|D:/ECE 385/Lab5/ISDU.sv|
+!i113 1
+R12
+R13
+R14
+n@i@s@d@u
+vMem2IO
+R1
+R15
+!i10b 1
+!s100 ]Q:NN9GIUgNPLn_MG6U5k1
+IERS>TY_5edflUaO[2__9L1
+R3
+!s105 Mem2IO_sv_unit
+S1
+R0
+R5
+8D:/ECE 385/Lab5/Mem2IO.sv
+FD:/ECE 385/Lab5/Mem2IO.sv
+L0 16
+R8
+r1
+!s85 0
+31
+Z18 !s108 1678400284.000000
+!s107 D:/ECE 385/Lab5/Mem2IO.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab5|D:/ECE 385/Lab5/Mem2IO.sv|
+!i113 1
+R12
+R13
+R14
+n@mem2@i@o
+Xmemory_contents_sv_unit
+R1
+Z19 DXx4 work 6 SLC3_2 0 22 C60?DA7ic9DF9L8DJ8D_L3
+VTeZKad0AI[FM>PbIMNYim1
+r1
+!s85 0
+31
+!i10b 1
+!s100 :0FBYob897RSc><Y^lI?F2
+ITeZKad0AI[FM>PbIMNYim1
+!i103 1
+S1
+R0
+R5
+Z20 8D:/ECE 385/Lab5/memory_contents.sv
+Z21 FD:/ECE 385/Lab5/memory_contents.sv
+L0 17
+R8
+R16
+Z22 !s107 D:/ECE 385/Lab5/memory_contents.sv|
+Z23 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab5|D:/ECE 385/Lab5/memory_contents.sv|
+!i113 1
+R12
+R13
+R14
+vmemory_parser
+R1
+R19
+DXx4 work 23 memory_contents_sv_unit 0 22 TeZKad0AI[FM>PbIMNYim1
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 lN6]S[cX[OdOY]lGLh:fL1
+INNi19CKZ_RooKP?H=1[jg2
+!s105 memory_contents_sv_unit
+S1
+R0
+R5
+R20
+R21
+R17
+R8
+R16
+R22
+R23
+!i113 1
+R12
+R13
+R14
+vreg16
+R1
+R2
+!i10b 1
+!s100 ILb3<3X4kQlQ6LO1ZQeTU3
+I>BkdW`9d8@7Z`b2m9MS270
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 143
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vregister_file
+R1
+R15
+!i10b 1
+!s100 ST5fc^fcAm1U`7@nQ[:Ja3
+IjVennmdiOX?oA2^lOBMb73
+R3
+!s105 register_file_sv_unit
+S1
+R0
+R5
+8D:/ECE 385/Lab5/register_file.sv
+FD:/ECE 385/Lab5/register_file.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R16
+!s107 D:/ECE 385/Lab5/register_file.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab5|D:/ECE 385/Lab5/register_file.sv|
+!i113 1
+R12
+R13
+R14
+vslc3
+R1
+R2
+!i10b 1
+!s100 ZCI0f4fiU?65NMiUAbB6M2
+IHg@PThkzT8ljJAXREz15o3
+R3
+!s105 slc3_sv_unit
+S1
+R0
+R5
+8D:/ECE 385/Lab5/slc3.sv
+FD:/ECE 385/Lab5/slc3.sv
+L0 20
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE 385/Lab5/slc3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab5|D:/ECE 385/Lab5/slc3.sv|
+!i113 1
+R12
+R13
+R14
+XSLC3_2
+R1
+Z24 !s110 1678400284
+!i10b 1
+!s100 Cz8_^@QRefP31?j=Zf>lj0
+IC60?DA7ic9DF9L8DJ8D_L3
+VC60?DA7ic9DF9L8DJ8D_L3
+S1
+R0
+R5
+8D:/ECE 385/Lab5/SLC3_2.sv
+FD:/ECE 385/Lab5/SLC3_2.sv
+L0 24
+R8
+r1
+!s85 0
+31
+R18
+!s107 D:/ECE 385/Lab5/SLC3_2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab5|D:/ECE 385/Lab5/SLC3_2.sv|
+!i113 1
+R12
+R13
+R14
+n@s@l@c3_2
+vslc3_testtop
+R1
+R2
+!i10b 1
+!s100 ^4hhCjYV2aT;kkekDk8a71
+I1BFK@gBXX;gY:Ea0Q8JfM2
+R3
+!s105 slc3_testtop_sv_unit
+S1
+R0
+R5
+8D:/ECE 385/Lab5/slc3_testtop.sv
+FD:/ECE 385/Lab5/slc3_testtop.sv
+L0 4
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE 385/Lab5/slc3_testtop.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab5|D:/ECE 385/Lab5/slc3_testtop.sv|
+!i113 1
+R12
+R13
+R14
+vsync
+R1
+R24
+!i10b 1
+!s100 OHNUFN]797>kYzRL;ikZR2
+I^IIH<G4dlQ1o`4QZaNWYf0
+R3
+Z25 !s105 synchronizers_sv_unit
+S1
+R0
+R5
+Z26 8D:/ECE 385/Lab5/synchronizers.sv
+Z27 FD:/ECE 385/Lab5/synchronizers.sv
+L0 7
+R8
+r1
+!s85 0
+31
+R18
+Z28 !s107 D:/ECE 385/Lab5/synchronizers.sv|
+Z29 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab5|D:/ECE 385/Lab5/synchronizers.sv|
+!i113 1
+R12
+R13
+R14
+vsync_r0
+R1
+R24
+!i10b 1
+!s100 _Sn:CfHFjznVZen=7jc>C2
+IL?>hWTPRzaJiJL;@iU`O82
+R3
+R25
+S1
+R0
+R5
+R26
+R27
+L0 21
+R8
+r1
+!s85 0
+31
+R18
+R28
+R29
+!i113 1
+R12
+R13
+R14
+vsync_r1
+R1
+R24
+!i10b 1
+!s100 4jfZd?z`MK2Y<NLFC0<QH2
+Ic]]@ZjLgiPKB4]k;OQ6<V2
+R3
+R25
+S1
+R0
+R5
+R26
+R27
+L0 42
+R8
+r1
+!s85 0
+31
+R18
+R28
+R29
+!i113 1
+R12
+R13
+R14
+vtest_memory
+R1
+R24
+!i10b 1
+!s100 JAXhO?6GV:H>``me>_X5<1
+I<>MnP^Y@^CAVRT^U3W`M^1
+R3
+!s105 test_memory_sv_unit
+S1
+R0
+R5
+8D:/ECE 385/Lab5/test_memory.sv
+FD:/ECE 385/Lab5/test_memory.sv
+L0 26
+R8
+r1
+!s85 0
+31
+R18
+!s107 D:/ECE 385/Lab5/test_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab5|D:/ECE 385/Lab5/test_memory.sv|
+!i113 1
+R12
+R13
+R14
+vtestbench
+R1
+R2
+!i10b 1
+!s100 1KWMk1eB;:f0AA5i8OYJZ3
+IaeQAKeXOkKTeLPMG]VoH;3
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1678400263
+8D:/ECE 385/Lab5/testbench.sv
+FD:/ECE 385/Lab5/testbench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE 385/Lab5/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385/Lab5|D:/ECE 385/Lab5/testbench.sv|
+!i113 1
+R12
+R13
+R14
